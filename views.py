@@ -81,7 +81,7 @@ def value(request):
 				break
 	gpa=float(gpa)	
 	if gpa>9.00:
-		cmt="Get lost Nerd!"
+		cmt=""
 	else:
 		cmt=""
 	return render_to_response('final.html',{'lst':gpa,'cmt':cmt})	
